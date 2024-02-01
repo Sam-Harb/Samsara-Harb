@@ -8,8 +8,20 @@ body {
     text-align:center;
 }
 
-#cabecera #logo{
+#cabecera #logo {
     width: 30px;
     vertical-align: left;
     align-content: left;
+}
+
+button {
+    color: rgb(213, 247, 247);
+    background-color: black;
+    border: none;
+    display:inline-block;
+    padding: 3em;
+}
+
+#cuerpo{
+    color:white;
 }
