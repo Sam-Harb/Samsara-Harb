@@ -3,6 +3,7 @@ body {
 }
 #cabecera {
     position: sticky;
+    top: 0;
     color: white;
     font-family: herculanum, fantasy;
     font-weight: bold;
