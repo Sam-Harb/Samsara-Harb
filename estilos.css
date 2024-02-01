@@ -6,12 +6,13 @@ body {
     font-family: Geneva;
     font-weight: bold;
     text-align:center;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 #cabecera #logo {
     width: 30px;
-    vertical-align: left;
-    align-content: left;
+    float:left;
 }
 
 .button {
@@ -46,16 +47,17 @@ body {
     background:#ff1867;
     z-index: -1;
     transform: scale(0);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .button:hover::before {
 transform: scale(1);
-transition-delay: 0.5s;
+transition-delay: 0.3s;
 box-shadow: 0 0 10px #ff1867,
 0 0 30px #ff1867,
 0 0 60px #ff1867;
 }
+
 #cuerpo{
     color:white;
 }
