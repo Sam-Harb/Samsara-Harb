@@ -2,7 +2,14 @@ body {
     background-color: black;
 }
 #cabecera {
-    color: white
+    color: white;
     font-family: fantasy;
     font-weight: bold;
+    text-align:center;
+}
+
+#cabecera #logo{
+    width: 30px;
+    vertical-align: left;
+    align-content: left;
 }
