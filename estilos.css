@@ -14,12 +14,25 @@ body {
     align-content: left;
 }
 
-button {
-    color: rgb(213, 247, 247);
-    background-color: black;
-    border: none;
-    display:inline-block;
-    padding: 3em;
+.button {
+    position: relative;
+    padding: 16px 30px;
+    font-size:1rem;
+    color:#ff1867;
+    background-color: rgb(3, 2, 2);
+    border-radius:4px;
+    text-shadow: 0 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.button:hover{
+    color: #fff;
+    border: 2px solid rgba (0, 0, 0, 0);
+    box-shadow: 0 0 0px #ff1867:
 }
 
 #cuerpo{
