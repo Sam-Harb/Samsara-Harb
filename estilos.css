@@ -83,3 +83,18 @@ box-shadow: 0 0 10px #ff1867,
     margin-bottom: 8px;
     float: center;
 }
+#cuerpo #aboutt{
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+#cuerpo #aboutt #abouttext{
+    width: 60%;
+    float: right;
+    background-color: rgb(255, 24, 105, 0.5);
+}
+#cuerpo #aboutt p{
+    margin: 45px;
+}
+#cuerpo #aboutt #arbol{
+    width: 40%;
+}
