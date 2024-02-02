@@ -90,7 +90,7 @@ box-shadow: 0 0 10px #ff1867,
 #cuerpo #aboutt #abouttext{
     width: 60%;
     float: right;
-    background-color: rgb(255, 24, 105, 0.5);
+    background-color: rgb(255, 24, 105, 1);
 }
 #cuerpo #aboutt p{
     margin: 45px;
