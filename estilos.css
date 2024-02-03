@@ -111,3 +111,30 @@ box-shadow: 0 0 10px #ff1867,
 #cuerpo #proyectos img:hover{
     box-shadow: 20px 30px 30px #faeff3;
 }
+.container{
+    display: block;
+    border: 8px solid #ff1867;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0 0 10px 10px;
+    max-width: 500px;
+}
+.container:hover{
+    border: 8px solid #faeff3;
+}
+input textarea{
+    width: 100%;
+    border: 5px solid #ff1867;
+    border-radius: 4px;
+    resize: vertical;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+form{
+    padding: 10px 10px 0 0;
+}
+.mensaje{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
